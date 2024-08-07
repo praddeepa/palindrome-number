@@ -1,0 +1,4 @@
+class Solution:
+	def is_palindrome(self, n):
+	    n=str(n)
+	    return "Yes" if n==n[::-1] else "No"
